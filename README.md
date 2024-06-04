@@ -1,5 +1,5 @@
 # Loan-Default-Prediction
-! (images/istockphoto-1145371340-612x612.jpeg)
+![Loan Default Image](images/istockphoto-1145371340-612x612.jpeg)
 
 ## Overview
 This project explores loan default prediction using a classification machine learning model to address real-world challenges faced by financial institutions. The objective is to build a model that can accurately predict whether a borrower is likely to default on a loan based on various financial and personal characteristics, enabling lenders to make informed decisions and manage risk effectively.
@@ -45,30 +45,30 @@ The dataset is sourced from the institution’s internal database, encompassing 
 
 The project follows a structured approach to model development and evaluation:
 
-1. Data Exploration and Cleaning
-Analyze the data to understand its distribution and identify missing values.
-Perform necessary preprocessing steps such as handling missing values, encoding categorical variables, and scaling numerical features.
+1. **Data Exploration and Cleaning**
+    - Analyze the data to understand its distribution and identify missing values.
+    - Perform necessary preprocessing steps such as handling missing values, encoding categorical variables, and scaling numerical features.
 
-2. Feature Engineering
-Create new features from existing ones to potentially improve model performance. For example, creating an interaction term between debt-to-income ratio and credit score.
+2. **Feature Engineering**
+    - Create new features from existing ones to potentially improve model performance. For example, creating an interaction term between debt-to-income ratio and credit score.
 
-3. Model Building
-Train and evaluate different machine learning algorithms for loan default prediction, including:
-* Logistic Regression: A baseline model for comparison.
-* Random Forest: To capture non-linear relationships.
-* XGBoost: For potentially better performance through boosting.
+3. **Model Building**
+    - Train and evaluate different machine learning algorithms for loan default prediction, including:
+        - **Logistic Regression**: A baseline model for comparison.
+        - **Random Forest**: To capture non-linear relationships.
+        - **XGBoost**: For potentially better performance through boosting.
 
-4. Hyperparameter Tuning
-Optimize the hyperparameters of the chosen models using techniques like Grid Search and Random Search to enhance their performance.
+4. **Hyperparameter Tuning**
+    - Optimize the hyperparameters of the chosen models using techniques like Grid Search and Random Search to enhance their performance.
 
-5. Model Evaluation
-Assess the performance of the models using metrics like:
-* Accuracy: Overall correctness of the model.
-* Precision: Correct positive predictions as a proportion of total positive predictions.
-* Recall: Correct positive predictions as a proportion of all actual positives.
-* F1-Score: Harmonic mean of precision and recall.
-* AUC-ROC: Area under the receiver operating characteristic curve, measuring the ability of the model to distinguish between classes.
----
+5. **Model Evaluation**
+    - Assess the performance of the models using metrics like:
+        - **Accuracy**: Overall correctness of the model.
+        - **Precision**: Correct positive predictions as a proportion of total positive predictions.
+        - **Recall**: Correct positive predictions as a proportion of all actual positives.
+        - **F1-Score**: Harmonic mean of precision and recall.
+        - **AUC-ROC**: Area under the receiver operating characteristic curve, measuring the ability of the model to distinguish between classes.
+
 
 ## Implementation
 
