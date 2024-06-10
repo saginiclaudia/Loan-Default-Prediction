@@ -92,11 +92,6 @@ This project aims to develop a robust classification model that can assist finan
 * Continuously monitor model performance and retrain with new data to maintain accuracy.
 * Address ethical considerations in the deployment of machine learning models in loan approval processes.
 
-## Additional Information
-* Code Repository
-* References for any external resources used in the project.
-* Documentation on the chosen machine learning algorithms and their implementation.
-
 
 ## Can Machine Learning Predict Loan Defaults?
 
