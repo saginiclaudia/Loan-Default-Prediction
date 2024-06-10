@@ -28,7 +28,10 @@ The project utilizes a proprietary loan default prediction dataset containing in
 * Target Variable: `Loan default indicator` (e.g., 0 - paid in full, 1 - defaulted)
 
 ### Data Source
-The dataset is sourced from the institution’s internal database, encompassing historical loan application and repayment records.
+The dataset is sourced from the kaggle and will provide the opportunity to tackle one of the most industry-relevant machine learning problems. It's relevant features such as Income of an individual, Interest rate and loan term, will aid in predicting loan defaults.
+
+Source: <a href="https://www.kaggle.com/datasets/nikhil1e9/loan-default/data">link</a>.
+
 
 ###### Data Description
 * `Age`: Age of the applicant.
